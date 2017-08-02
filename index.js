@@ -7,7 +7,7 @@ var cmd    = spawn(
       [
         '-c', path.join(__dirname, 'ssl.crt'),
         '-k', path.join(__dirname, 'ssl.key'),
-        '--hostname', '*.local.ragtag.cloud',
+        '--hostname', 'local.ragtag.cloud',
       ].concat(process.argv.slice(2))
     )
 
