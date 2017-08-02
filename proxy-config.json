@@ -1,0 +1,8 @@
+{
+  "groups": {
+    "source": 3001,
+    "target": 3000,
+    "key": "config/ssl.key",
+    "cert": "config/ssl.crt"
+  }
+}
